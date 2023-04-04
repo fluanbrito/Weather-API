@@ -1,0 +1,75 @@
+/* Importando fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Estilo do corpo da página */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #87CEFA;
+}
+
+/* Estilo da cidade */
+.city {
+    font-size: 36px;
+    color: #1a1a2e;
+}
+
+/* Estilo da data */
+.date {
+    font-size: 18px;
+    color: #1a1a2e;
+}
+
+/* Estilo do container da temperatura */
+.container-temp {
+    /* Centralizando horizontal e verticalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Fundo e cor do texto */
+    background-color: #87CEEB;
+    color: #fff;
+    /* Sombra */
+    box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.6);
+    /* Cursor */
+    cursor: pointer;
+    /* Margem superior */
+    margin-top: 10%;
+    /* Tamanho e peso da fonte */
+    font-size: 120px;
+    font-weight: 900;
+    /* Sombra do texto */
+    text-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+    /* Transição de animação */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Efeito hover e active do container da temperatura */
+.container-temp:hover,
+.container-temp:active {
+    /* Deslocamento vertical */
+    transform: translateY(-5px);
+    /* Sombra com maior desfoque */
+    box-shadow: 5px 8px 12px rgba(0, 0, 0, 0.8);
+}
+
+/* Efeito hover do container da temperatura */
+.container-temp:hover {
+    background-color: #ffc107;
+}
+
+/* Efeito active do container da temperatura */
+.container-temp:active {
+    background-color: #fd7e14;
+}
+
+/* Estilo da descrição do tempo */
+.weather {
+    font-size: 36px;
+    color: #1a1a2e;
+}
+
+/* Estilo da temperatura máxima e mínima */
+.low-high {
+    font-size: 24px;
+    color: #1a1a2e;
+}
